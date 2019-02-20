@@ -115,6 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\lib\binary_source_20180815.cpp" />
+    <ClCompile Include="..\..\lib\discrete_to_continuous_time_20180815.cpp" />
+    <ClCompile Include="..\..\lib\iq_modulator_20180815.cpp" />
+    <ClCompile Include="..\..\lib\laser_20180815.cpp" />
+    <ClCompile Include="..\..\lib\m_qam_mapper_20180815.cpp" />
+    <ClCompile Include="..\..\lib\netxpto_20180815.cpp" />
+    <ClCompile Include="..\..\lib\pulse_shaper_20180815.cpp" />
+    <ClCompile Include="..\..\lib\sink_20180815.cpp" />
     <ClCompile Include="m_qam_transmission_system_sdf_Manuel.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
