@@ -55,6 +55,8 @@ int main() {
 
 	MQamMapper B2{ { &S1 }, { &S2, &S3 } };
 
+	B2.setIqAmplitudes({ {1,1}, {1,-1}, {-1,1}, {-1,-1} });
+
 	DiscreteToContinuousTime B3{ { &S2 }, { &S4 } };
 
 	DiscreteToContinuousTime B4{ { &S3 }, { &S5 } };
